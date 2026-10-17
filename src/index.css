@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+/* Suppress dev error overlays for smooth recording */
+vite-error-overlay {
+  display: none !important;
+}
