@@ -21,5 +21,6 @@
   "editor.inlineSuggest.enabled": true,
   "zenMode.fullScreen": false,
   "zenMode.centerLayout": false,
-  "errorLens.enabled": false
+  "errorLens.enabled": false,
+  "editor.cursorStyle": "block"
 }
