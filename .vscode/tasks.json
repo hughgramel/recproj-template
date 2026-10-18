@@ -1,0 +1,15 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Toggle Autocomplete",
+      "type": "shell",
+      "command": "node -e 'const fs=require(\"fs\"),p=\"./.vscode/settings.json\",d=JSON.parse(fs.readFileSync(p,\"utf8\")),off=d[\"editor.quickSuggestions\"]&&d[\"editor.quickSuggestions\"][\"other\"]===\"off\";d[\"editor.quickSuggestions\"]=off?{other:\"on\",comments:\"off\",strings:\"on\"}:{other:\"off\",comments:\"off\",strings:\"off\"};d[\"editor.suggestOnTriggerCharacters\"]=off;d[\"editor.inlineSuggest.enabled\"]=off;fs.writeFileSync(p,JSON.stringify(d,null,2)+\"\\n\");console.log(off?\"Autocomplete ENABLED\":\"Autocomplete DISABLED\");'",
+      "presentation": {
+        "reveal": "silent",
+        "close": true
+      },
+      "problemMatcher": []
+    }
+  ]
+}
