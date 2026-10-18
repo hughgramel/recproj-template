@@ -26,5 +26,7 @@
   "editor.minimap.enabled": false,
   "editor.scrollbar.vertical": "hidden",
   "editor.scrollbar.horizontal": "hidden",
-  "editor.overviewRulerBorder": false
+  "editor.overviewRulerBorder": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.overviewRulerLanes": 0
 }
