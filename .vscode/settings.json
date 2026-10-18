@@ -1,5 +1,7 @@
 {
   "editor.quickSuggestions": {
+    "other": "on",
+    "comments": "off",
     "strings": "on"
   },
   "tailwindCSS.experimental.configFile": "src/index.css",
@@ -14,5 +16,9 @@
   "tailwindCSS.emmetCompletions": true,
   "files.autoSave": "afterDelay",
   "files.autoSaveDelay": 100,
-  "editor.formatOnSave": false
+  "editor.formatOnSave": false,
+  "editor.suggestOnTriggerCharacters": true,
+  "editor.inlineSuggest.enabled": true,
+  "zenMode.fullScreen": false,
+  "zenMode.centerLayout": false
 }
