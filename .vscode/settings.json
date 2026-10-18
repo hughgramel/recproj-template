@@ -22,5 +22,9 @@
   "zenMode.fullScreen": false,
   "zenMode.centerLayout": false,
   "errorLens.enabled": false,
-  "editor.cursorStyle": "block"
+  "editor.cursorStyle": "block",
+  "editor.minimap.enabled": false,
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.overviewRulerBorder": false
 }
