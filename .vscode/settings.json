@@ -20,5 +20,6 @@
   "editor.suggestOnTriggerCharacters": true,
   "editor.inlineSuggest.enabled": true,
   "zenMode.fullScreen": false,
-  "zenMode.centerLayout": false
+  "zenMode.centerLayout": false,
+  "errorLens.enabled": false
 }
